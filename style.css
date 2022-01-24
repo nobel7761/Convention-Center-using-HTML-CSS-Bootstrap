@@ -1,0 +1,227 @@
+/* google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Manrope&family=Poppins&family=Roboto&display=swap');
+
+/* navbar heading */
+.convention-center{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 33px;
+    color: #3E3E3E;
+}
+
+/* nav-items */
+.nav-item a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #3E3E3E;
+}
+
+/* carousel design */
+.slider h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+}
+.slider h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.slider img{
+    height: 90vh;
+}
+
+/* precious section */
+.precious-section h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #0A0826;
+    font-size: 38px;
+    line-height: 60px;
+}
+.precious-section p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #6C6C6C;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.toast-section{
+    border-left: 7px solid blue;
+    border-image-slice: 1;
+}
+
+.button{
+    border-radius: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+/* all section headings */
+.headings{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #222221;
+    font-size: 38px;
+    line-height: 50px;
+}
+
+/* for all cards */
+.card{
+    border: none;
+}
+
+/* package cards */
+.price-card{
+    margin-top: 50px;
+}
+.price-card h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #231D4F;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.price-card h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #231D4F;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+.price-card h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #848199;
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+.price-card span{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #848199;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.price-card i{
+    color: #5243C2;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: 
+    rgba(82, 67, 194, 0.103693);
+}
+
+.card-footer-button{
+    background-color: transparent;
+    border: none;
+}
+
+.button-bg{
+    background-color: rgba(244, 150, 209, 0.1);
+    border: none;
+    color: #3F87F5;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+/* focused package */
+.focused-card{
+    border-radius: 25px;
+}
+
+.focused-card h1{
+    color: white;
+}
+.focused-card h2{
+    color: white;
+}
+.focused-card h5{
+    color: white;
+}
+.focused-card span{
+    color: white;
+}
+.focused-card i{
+    color: white;
+    background-color: 
+    #5293F6;
+}
+.focused-card button{
+    background-color: white;
+}
+
+/* happy client section */
+.happy-client{
+    box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.13);
+    border-radius: 5px;
+}
+
+.happy-client h6{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #6C6C6C;
+    letter-spacing: 0.2px;
+    line-height: 26px;
+}
+.happy-client h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #0C1920;
+    font-size: 14px;
+
+}
+.happy-client h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #747474;
+    font-size: 14px;
+}
+
+/* accordian section */
+.accord-item{
+    padding: 20px 24px;
+    border-bottom: none;
+    border: 1px solid #D5E5FB;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.accord-item button{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #383838;
+    line-height: 28px;
+}
+
+.accord-item button:focus{
+    border-color: transparent;
+    box-shadow: none;
+    background-color: transparent;
+    color: black;
+}
+
+.accord-text{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #7E848C;
+    line-height: 28px;
+}
+/* footer section */
+footer{
+    background-color: #0B0D17;
+    color: #D9DBE1;
+    font-size: 18px;
+    font-family: 'Manrope', sans-serif;
+    padding: 50px 0 ;
+}
