@@ -139,6 +139,8 @@
     color: white;
     background-color: 
     #5293F6;
+    border-radius: 50%;
+    padding: 5px;
 }
 .focused-card button{
     background-color: white;
